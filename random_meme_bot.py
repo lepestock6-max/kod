@@ -3,7 +3,7 @@ import os
 import random 
 
 
-bot = telebot.TeleBot("8498699409:AAGjjrx0F1IYzp9VPXFupXIxFF54fxQScGA")
+bot = telebot.TeleBot("TOKEN")
 @bot.message_handler(commands=["mem"])
 def start(message: True):
     with open('images/images.jpg', 'rb') as f:
