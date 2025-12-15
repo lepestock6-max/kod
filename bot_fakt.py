@@ -3,7 +3,7 @@ import os
 import random 
 
 
-bot = telebot.TeleBot("8498699409:AAGjjrx0F1IYzp9VPXFupXIxFF54fxQScGA")
+bot = telebot.TeleBot("TOKEN")
 @bot.message_handler(commands=["start"])
 def start(message: telebot.types.Message):
     text = "привет я помогу тебе в твоей нелёгкой работе, для помощи в командах напиши /help"
