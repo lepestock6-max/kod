@@ -7,7 +7,7 @@ from telebot.types import (
     InlineKeyboardButton
 )
 
-BOT_TOKEN = "8498699409:AAGjjrx0F1IYzp9VPXFupXIxFF54fxQScGA" 
+BOT_TOKEN = "TOKEN" 
 WEB_URL = "https://pytelegrambotminiapp.vercel.app" 
 
 bot = TeleBot(BOT_TOKEN)
