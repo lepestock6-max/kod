@@ -1,0 +1,60 @@
+body {
+    font-family: Inter,  sans-serif; /* Семейство шрифтов */
+    font-size: 21px; /* Размер основного шрифта в <p></p>  */
+    background-color: #00b7ff; /* Цвет фона веб-страницы */
+    color: #31fc64; /* Цвет основного текста */ 
+    
+}
+h1:hover{
+  animation: color-change 3s infinite;
+}
+@keyframes color-change {
+  0%   { color: rgb(0, 238, 255); }
+  50%  { color: rgb(0, 255, 0); }
+  100% { color: rgb(255, 0, 0); }
+}
+p:hover{
+    animation: color-change 3s infinite;
+}    
+@keyframes color-change {
+  0%   { color: rgb(17, 0, 255); }
+  50%  { color: rgb(140, 0, 255); }
+  100% { color: rgb(255, 0, 128); }
+}
+h2{
+  animation: color-change 3s infinite;
+}
+@keyframes color-change {
+  0%   { color: rgb(255, 251, 0); }
+  50%  { color: rgb(231, 108, 149); }
+  100% { color: rgb(0, 255, 170); }
+}
+li {
+    font-size: 20px;
+}
+img {
+    border-radius:8%;
+}
+img {
+    box-shadow: 0px 10px 25px #0000007e;
+    transition: all 0.5s ease;
+    margin: 10px 0;
+    width: 400px;
+    height: 400px;
+    filter: brightness(1.0);
+    object-fit: cover;
+    outline: 4px solid transparent;
+    border-radius: 10%;
+}
+img:hover{
+    transform: scale(1.1) rotate(1deg);
+    outline-color: #ff3333;
+    box-shadow: 0px 10px 35px #8d262685;
+    filter: brightness(1.1);
+}
+h3{
+  color:rgb(78, 109, 211) 
+}
+h4{
+  color:rgb(7, 55, 212) 
+}
